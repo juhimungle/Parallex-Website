@@ -1,0 +1,79 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+
+.pimg1{
+    background-image: url(misal-pav.jpg);
+    min-height: 100%;   
+}
+.pimg2{
+    background-image: url(makki-de-roti.jpg);
+    min-height: 600px;   
+}
+.pimg3{
+    background-image: url(dhokla.jpg);
+    min-height: 600px;   
+}
+.pimg4{
+    background-image: url(dal-baati-churma.jpg);
+    min-height: 600px;   
+}
+.pimg5{
+    background-image: url(momo.jpg);
+    min-height: 600px;   
+}
+.pimg6{
+    background-image: url(dosa.jpg);
+    min-height: 600px;   
+}
+.pimg7{
+    background-image: url(litti-chowkha.jpg);
+    min-height: 600px;   
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform: uppercase;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
